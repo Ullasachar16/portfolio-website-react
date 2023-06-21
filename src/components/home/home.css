@@ -16,7 +16,16 @@
     color: var(--title-color);
 }
 
-.h
+.home_social-icon:hover {
+    color: var(--title-color-dark);
+}
+
+.home_title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+
 
 .home_img {
     background: url(../../assets/profile.jpg);
