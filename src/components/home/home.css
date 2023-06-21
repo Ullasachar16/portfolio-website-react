@@ -114,8 +114,8 @@
     color: var(--title-color);
 }
 
-/* ============ BREAKPOINTS ============  */
-/* For large devices  */
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
 @media screen and (max-width: 992px) {
     .home_content {
         grid-template-columns: 100px repeat(2, 1fr);
@@ -143,9 +143,9 @@
     }
 
     .home_img {
-       width: 250px;
-       height: 250px;
-       box-shadow: inset 0 0 0 8px rgb(255 255 255/30%);
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
     }
 
     .home_scroll {
@@ -153,8 +153,8 @@
     }
 }
 
-/* For medium devices  */
-@media screen and(max-width: 768px) {
+/* For medium devices */
+@media screen and (max-width: 768px) {
     .home_content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
@@ -170,7 +170,7 @@
     }
 
     .home_img {
-        box-shadow: inset 0 0 0 6px rgb(255 255 255/30%);
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
         width: 200px;
         height: 200px;
     }
@@ -180,7 +180,7 @@
     }
 }
 
-/* For small devices  */
+/* For small devices */
 @media screen and (max-width: 350px) {
     .home_img {
         width: 180px;
