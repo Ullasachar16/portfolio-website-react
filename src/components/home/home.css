@@ -25,7 +25,18 @@
     margin-bottom: var(--mb-0-25);
 }
 
+.home_hand {
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
 
+.home_subtitle {
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-right: 5.4rem;
+    font-weight: var(--font-normal);
+}
 
 .home_img {
     background: url(../../assets/profile.jpg);
