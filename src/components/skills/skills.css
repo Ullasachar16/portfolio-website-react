@@ -18,4 +18,30 @@
     margin-bottom: var(--mb-1-5);
 }
 
-.skills
+.skills_box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.skills_group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.skills_data {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.skills_name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
