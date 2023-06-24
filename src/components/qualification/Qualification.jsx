@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./qualification.css";
 
 const Qualification = () => {
+    const [toggleState, setToggleState] = useState(1);
+
+    const toggleTab = (index) => {
+        setToggleState(index);
+    };
+
     return (
         <section className='qualification section'>
             <h2 className='section_title'>Qualification</h2>
@@ -9,17 +15,17 @@ const Qualification = () => {
 
             <div className="qualification_container container">
                 <div className="qualification_tabs">
-                    <div className="qualification_button qualification_active button--flex">
+                    <div className={toggleState === 1 ? "qualification_button qualification_active button--flex" : "qualification_button button--flex"}>
                         <i className="uil uil-graduation-cap qualification_icon"></i>Education
                     </div>
 
-                    <div className="qualification_button button--flex">
+                    <div className={toggleState === 2 ? "qualification_button qualification_active button--flex" : "qualification_button button--flex"}>
                         <i className="uil uil-briefcase-alt qualification_icon"></i>Experience
                     </div>
                 </div>
 
                 <div className="qualification_section">
-                    <div className="qualification_content qualification_content-active">
+                    <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Web Designer</h3>
@@ -85,7 +91,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification_content">
+                    <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Product Designer</h3>
