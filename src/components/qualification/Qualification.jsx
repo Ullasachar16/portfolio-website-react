@@ -21,6 +21,7 @@ const Qualification = () => {
                 ? "qualification_button qualification_active button--flex"
                 : "qualification_button button--flex"
             }
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap 
               qualification_icon"></i>{""} Education
@@ -30,7 +31,9 @@ const Qualification = () => {
             toggleState === 2
               ? "qualification_button qualification_active button--flex"
               : "qualification_button button--flex"
-          }>
+          }
+            onClick={() => toggleTab(2)}
+          >
             <i className="uil uil-briefcase-alt qualification_icon"></i> {""}
             Experience
           </div>
@@ -118,10 +121,10 @@ const Qualification = () => {
           </div>
 
           <div className={
-              toggleState === 2
-                ? "qualification_content qualification_content-active"
-                : "qualification_content"
-            }>
+            toggleState === 2
+              ? "qualification_content qualification_content-active"
+              : "qualification_content"
+          }>
 
 
             <div className="qualification_data">
