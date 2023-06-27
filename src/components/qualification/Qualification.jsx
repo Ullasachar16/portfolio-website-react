@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -24,7 +24,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap 
-              qualification_icon"></i>{""} Education
+              qualification_icon"></i>Education
           </div>
 
           <div className={
@@ -34,7 +34,7 @@ const Qualification = () => {
           }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualification_icon"></i> {""}
+            <i className="uil uil-briefcase-alt qualification_icon"></i>
             Experience
           </div>
         </div>
