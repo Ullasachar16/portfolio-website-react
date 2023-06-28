@@ -19,22 +19,22 @@ const Testimonials = () => {
       <span className="section_subtitle">Testimonial</span>
 
       <Swiper className="testimonial_container"
-      loop={true}
-      grabCursor={true}
-      spaceBetween={24}
-      pagination={{
-        clickable: true,
-      }}
-      breakpoints={{
-        576: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 48,
-        },
-      }}
-      modules={[Pagination]}
+        loop={true}
+        grabCursor={true}
+        spaceBetween={24}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+          },
+        }}
+        modules={[Pagination]}
       >
         {Data.map(({ id, image, title, description }) => {
           return (
