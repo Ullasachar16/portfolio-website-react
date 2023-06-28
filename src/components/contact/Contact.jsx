@@ -79,8 +79,8 @@ const Contact = () => {
                             >
                             </textarea>
                         </div>
-                        <a href="#contact" className="button button--flex">
-                            Say Hello
+                        <button className="button button--flex">
+                            Send Message
                             <svg
                                 class="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ const Contact = () => {
                                     fill="var(--container-color)"
                                 ></path>
                             </svg>
-                        </a>
+                        </button>
                     </form>
                 </div>
             </div>
