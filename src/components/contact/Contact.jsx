@@ -14,11 +14,7 @@ const Contact = () => {
                 form.current, 
                 "I9YRrp-_r9MEeC2gr"
                 )
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });
+                e.target.reset()
         };
 
         return (
