@@ -19,4 +19,30 @@
 .testimonial_name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.testimonial_description {
+    font-size: var(--small-font-size);
+}
+
+/* Swipper Class  */
+.swipper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swipper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/* ============== BREAKPOINTS =============  */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .testimonial_container {
+        width: initial;
+    }
+
+    .testimonial_card {
+        padding: 1.25rem 1.5rem;
+    }
 }
