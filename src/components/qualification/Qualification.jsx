@@ -62,8 +62,7 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
             </div>
-
-
+            
             <div className="qualification_data">
               <div></div>
 
