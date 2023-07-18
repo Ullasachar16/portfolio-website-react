@@ -48,7 +48,6 @@ const Qualification = () => {
             }
           >
 
-
             <div className="qualification_data">
               <div>
                 <h3 className="qualfication_title">Web Design</h3>
